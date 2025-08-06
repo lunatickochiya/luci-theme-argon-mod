@@ -11,7 +11,7 @@ LUCI_DEPENDS:=+curl +jsonfilter
 PKG_VERSION:=2.4.3
 PKG_RELEASE:=20250722
 
-CONFIG_LUCI_CSSTIDY:=
+LUCI_MINIFY_CSS:=0
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
